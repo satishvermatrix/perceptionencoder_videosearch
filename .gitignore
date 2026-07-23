@@ -1,0 +1,26 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Vendored upstream repo (cloned separately)
+vendor/
+
+# Hugging Face model cache
+.hf_home/
+
+# Generated indexes, logs, and exported clips
+data/index/
+data/index_full/
+data/*.log
+clips/
+
+# Test / tooling caches
+.pytest_cache/
+
